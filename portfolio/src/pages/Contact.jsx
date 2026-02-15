@@ -7,10 +7,7 @@ const Contact = () => {
         <h1 className="text-4xl md:text-5xl font-bold">
           Contact <span className="text-orange-400">Me</span>
         </h1>
-        <p className="mt-4 text-slate-400 max-w-xl mx-auto">
-          Have a project idea, opportunity, or just want to say hi?  
-          Feel free to reach out.
-        </p>
+       
       </div>
 
       {/* Main Section */}
@@ -21,18 +18,18 @@ const Contact = () => {
           <div className="p-6 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 border border-white/10">
             <h3 className="text-xl font-semibold mb-2">Let’s Connect</h3>
             <p className="text-slate-400 mb-4">
-              I’m open to internships, projects, and collaborations.
+              I’m open to internships, projects, and Full time Job.
             </p>
 
             <div className="space-y-3 text-slate-300">
               <p>
-                📧 <span className="ml-2">deepak@email.com</span>
+                📧 <span className="ml-2">mistrydeepak1028@gmail.com</span>
               </p>
               <p>
                 📍 <span className="ml-2">India</span>
               </p>
               <p>
-                💼 <span className="ml-2">Web Developer</span>
+                💼 <span className="ml-2"> Full Stack Web Developer</span>
               </p>
             </div>
           </div>

@@ -55,23 +55,7 @@ bg-blend-color-burn
   >
     Home
   </a>
-  <a
-    href="/about"
-    className="
-      relative font-medium cursor-pointer transition
-      text-[var(--color-textPrimary)]
-      hover:text-[var(--color-accentSoft)]
-
-      after:content-['']
-      after:absolute after:left-0 after:-bottom-1
-      after:h-[2px] after:w-0
-      after:bg-[var(--color-accentSoft)]
-      after:transition-all after:duration-300
-      hover:after:w-full
-    "
-  >
-    About
-  </a>
+  
 
   <a
     href="/skill"
@@ -132,8 +116,8 @@ bg-blend-color-burn
       {/* Resume Button */}
 
 <a
-  href="/resumeDM.pdf"
-  download="resume"
+  href="/resumeDM.pdf" // used to download resume which should in public folder
+  download="resume" // name of downloaded file
   className="
     hidden md:block
     bg-[var(--color-accent)]

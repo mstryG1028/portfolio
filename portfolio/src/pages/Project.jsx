@@ -1,12 +1,14 @@
+import React from "react";
+
 const projects = [
   {
     title: "Wanderlust Holidays",
     description:
       "A travel and holiday booking website with modern UI, responsive design, and smooth user experience.",
-    image: "/images/wanderlust.png", // add your image
+    image: "/images/Screenshot 2026-02-15 161423.png",
     tech: ["React", "Tailwind", "MongoDB"],
-    code: "#",
-    demo: "#",
+    code: "https://github.com/mstryG1028/WanderLust-Holidays",
+    demo: "https://wanderlust-holidays-7umj.onrender.com",
   },
   {
     title: "Digital Dashboard",
@@ -14,33 +16,24 @@ const projects = [
       "An analytics dashboard displaying charts, statistics, and insights using a clean and modern layout.",
     image: "/images/Screenshot 2026-02-01 182330.png",
     tech: ["React", "Charts", "CSS"],
-    code: "#",
-    demo: "#",
+    code: "https://github.com/mstryG1028/Digital_DashBoard",
+    demo: "https://digital-dashboard.onrender.com",
   },
   {
     title: "Sorting Visualizer",
     description:
       "A visual tool to understand sorting algorithms through animations and real-time comparisons.",
-    image: "/images/sorting.png",
+    image: "/images/Screenshot 2026-02-15 161545.png",
     tech: ["JavaScript", "Algorithms", "HTML"],
-    code: "#",
-    demo: "#",
-  },
-  {
-    title: "Contact Management",
-    description:
-      "A visual tool to understand sorting algorithms through animations and real-time comparisons.",
-    image: "/images/sorting.png",
-    tech: ["React", "MongoDb", "Nodejs","Express"],
-    code: "#",
-    demo: "#",
+    code: "https://github.com/mstryG1028/sorting",
+    demo: "https://sortingpro1.netlify.app/",
   },
 ];
 
 const Project = () => {
   return (
     <div className="min-h-screen px-6 md:px-20 py-16 text-white">
-
+      
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-14">
         My <span className="text-orange-400">Projects</span>
@@ -98,6 +91,8 @@ const Project = () => {
               <div className="flex gap-4">
                 <a
                   href={project.code}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="
                     flex-1 text-center py-2 rounded-lg
                     bg-white/10 hover:bg-white/20
@@ -109,6 +104,8 @@ const Project = () => {
 
                 <a
                   href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="
                     flex-1 text-center py-2 rounded-lg
                     bg-orange-500 hover:bg-orange-600
@@ -123,6 +120,7 @@ const Project = () => {
           </div>
         ))}
       </div>
+
     </div>
   );
 };

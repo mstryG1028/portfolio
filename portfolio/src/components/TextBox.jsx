@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TextBox = () => {
   return (
@@ -26,6 +27,7 @@ const TextBox = () => {
 
       {/* Buttons */}
       <div className="flex flex-wrap gap-4 mt-6">
+       <Link to="/project">
         <button
           className="
             px-6 py-2
@@ -38,6 +40,9 @@ const TextBox = () => {
         >
           View Projects
         </button>
+       </Link>
+
+<Link to="/contact">
 
         <button
           className="
@@ -52,6 +57,9 @@ const TextBox = () => {
         >
           Contact Me
         </button>
+</Link>
+
+
       </div>
     </div>
   );

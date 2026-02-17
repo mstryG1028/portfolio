@@ -150,7 +150,7 @@ bg-blend-color-burn
             md:hidden
           "
         >
-          {["About", "Skills", "Projects", "Contact"].map(link => (
+          {[ "Skills", "Projects", "Contact"].map(link => (
             <a
               key={link}
               className="hover:text-[var(--color-accentSoft)] cursor-pointer"

@@ -6,7 +6,7 @@ const projects = [
     description:
       "A travel and holiday booking website with modern UI, responsive design, and smooth user experience.",
     image: "/images/Screenshot 2026-02-15 161423.png",
-    tech: ["React", "Tailwind", "MongoDB"],
+    tech: ["Node", "Bootstrap", "MongoDB"],
     code: "https://github.com/mstryG1028/WanderLust-Holidays",
     demo: "https://wanderlust-holidays-7umj.onrender.com",
   },
@@ -15,7 +15,7 @@ const projects = [
     description:
       "An analytics dashboard displaying charts, statistics, and insights using a clean and modern layout.",
     image: "/images/Screenshot 2026-02-01 182330.png",
-    tech: ["React", "Charts", "CSS"],
+    tech: ["node","Express", "Charts", "Web Technology"],
     code: "https://github.com/mstryG1028/Digital_DashBoard",
     demo: "https://digital-dashboard.onrender.com",
   },

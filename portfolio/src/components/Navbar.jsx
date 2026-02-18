@@ -116,7 +116,7 @@ bg-blend-color-burn
       {/* Resume Button */}
 
 <a
-  href="/resumeDM.pdf" // used to download resume which should in public folder
+  href="/Resume.pdf" // used to download resume which should in public folder
   download="resume" // name of downloaded file
   className="
     hidden md:block
